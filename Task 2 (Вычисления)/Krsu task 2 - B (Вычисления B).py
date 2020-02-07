@@ -1,0 +1,6 @@
+x_coor=input("").split()
+y_coor=input("").split()
+x_coor = list(map(float, x_coor))
+y_coor = list(map(float,y_coor))
+d_length=(((x_coor[0]-y_coor[0])**2)+((x_coor[1]-y_coor[1])**2))**(1/2)
+print(round(d_length, 3))
